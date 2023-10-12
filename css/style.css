@@ -1,0 +1,129 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-size: 20px;
+}
+/* Стилі для обнулення верхніх відступів у елементів */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* Клас для обнулення базових властивостей списків (ul) */
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* Клас для обнулення базових властивостей у посилань */
+a {
+  text-decoration: none;
+}
+
+/* Властивості для коректного відображення картинок */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Властивості для обнулення курсиву address */
+
+address {
+  font-style: normal;
+}
+.container {
+  width: 1440px;
+  padding: 0 135px;
+  margin: 0 auto;
+}
+
+/* header */
+.header {
+}
+.header-container{
+    display: flex;
+    padding: 0 40px;
+    align-items: center;
+
+}
+.logo {
+  color: #231f20;
+
+  font-family: Homemade Apple, sans-serif;
+  font-size: 18px;
+
+  line-height: normal;
+  margin-right: 433px;
+}
+
+.nav {
+}
+
+.nav-list {
+    display: flex;
+    gap: 31px;
+
+}
+
+.nav-link {
+  color: #000;
+
+  font-size: 18px;
+display: block;
+  line-height: normal;
+  padding: 47px 0;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: blue;
+  text-decoration: underline;
+  font-size: 20px;
+}
+.header-btn {
+  color: #f7941e;
+min-width: 150px;
+height: 43px;
+  font-size: 18px;
+
+  line-height: normal;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: 1px solid #f7941e;
+  cursor: pointer;
+  background-color: transparent;
+  margin-left: auto;
+}
+.header-btn:hover,
+.header-btn:focus{
+    color: #ffffff;
+    background-color: #f7941e;
+}
+.hero {
+
+}
+.hero-container{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.hero-title {
+    
+        font-size: 56px;
+      width: 433px;
+        font-weight: 600;
+        line-height: normal;
+}
+
+.hero-desk {}
+
+.hero-btn {}
